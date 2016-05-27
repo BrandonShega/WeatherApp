@@ -75,15 +75,15 @@
 		C53094F01CF733D600245737 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				C5A47DD41CF7EF4C0096B5A5 /* Custom Cells */,
+				C5A47DD31CF7EF400096B5A5 /* Controller */,
 				C57759421CF7DE5D00E3CA60 /* Model */,
 				C577593F1CF7D21300E3CA60 /* Operation */,
 				C53094F11CF733D600245737 /* AppDelegate.swift */,
-				C53094F31CF733D600245737 /* ViewController.swift */,
 				C53094F51CF733D600245737 /* Main.storyboard */,
 				C53094F81CF733D600245737 /* Assets.xcassets */,
 				C53094FA1CF733D600245737 /* LaunchScreen.storyboard */,
 				C53094FD1CF733D600245737 /* Info.plist */,
-				C57ED5EC1CF738FD001073D2 /* WeatherAppTableViewCell.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -102,6 +102,22 @@
 				C57759431CF7DE6800E3CA60 /* WeatherObject.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		C5A47DD31CF7EF400096B5A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C53094F31CF733D600245737 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C5A47DD41CF7EF4C0096B5A5 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C57ED5EC1CF738FD001073D2 /* WeatherAppTableViewCell.swift */,
+			);
+			name = "Custom Cells";
 			sourceTree = "<group>";
 		};
 		ECA17F22E58FE240975162BB /* Pods */ = {
